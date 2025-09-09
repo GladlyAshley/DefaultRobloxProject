@@ -1,0 +1,16 @@
+[package]
+name = "ashleyclarkson/default"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "dev"
+
+[dependencies]
+Knit = "sleitnick/knit@^1"
+Trove = "sleitnick/trove@^1"
+Signal = "sleitnick/signal@^1"
+TableUtil = "sleitnick/table-util@^1"
+Promise = "evaera/promise@^3"
+Roact = "roblox/roact@1.4.4"
+
+[server-dependencies]
+ProfileService = "alreadypro/profileservice@^1"
