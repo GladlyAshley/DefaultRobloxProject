@@ -10,7 +10,12 @@ dependencies = []
 [[package]]
 name = "ashleyclarkson/default"
 version = "0.1.0"
-dependencies = [["Knit", "sleitnick/knit@1.7.0"], ["Promise", "evaera/promise@3.2.1"], ["Roact", "roblox/roact@1.4.4"], ["Signal", "sleitnick/signal@1.5.0"], ["TableUtil", "sleitnick/table-util@1.2.1"], ["Trove", "sleitnick/trove@1.4.0"], ["ProfileService", "alreadypro/profileservice@1.0.4"]]
+dependencies = [["Fusion", "elttob/fusion@0.2.0"], ["Knit", "sleitnick/knit@1.7.0"], ["Promise", "evaera/promise@3.2.1"], ["Signal", "sleitnick/signal@1.5.0"], ["TableUtil", "sleitnick/table-util@1.2.1"], ["Trove", "sleitnick/trove@1.4.0"], ["ProfileService", "alreadypro/profileservice@1.0.4"]]
+
+[[package]]
+name = "elttob/fusion"
+version = "0.2.0"
+dependencies = []
 
 [[package]]
 name = "evaera/promise"
@@ -20,11 +25,6 @@ dependencies = []
 [[package]]
 name = "evaera/promise"
 version = "4.0.0"
-dependencies = []
-
-[[package]]
-name = "roblox/roact"
-version = "1.4.4"
 dependencies = []
 
 [[package]]
