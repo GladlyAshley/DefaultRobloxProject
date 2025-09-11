@@ -1,11 +1,11 @@
 # Default Roblox Project
 
-Used to quickly begin new Roblox projects using Knit, Fusion, and other packages on VSCode. 
+Used to quickly begin new Roblox projects using [Knit](https://github.com/Sleitnick/Knit), [Fusion](https://elttob.uk/Fusion/0.2/), and other packages on VSCode via [Rojo](https://github.com/rojo-rbx/rojo). 
 
 ## Installation
 
 1. Clone the repository.
-2. Make sure [Wally](https://wally.run) in installed and ready to run.
+2. Make sure [Wally](https://wally.run) is installed and ready to run.
 3. Run ```wally install``` inside the terminal to load all the required packages. 
 4. Design your game and enjoy!
 
