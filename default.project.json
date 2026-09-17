@@ -1,11 +1,14 @@
 {
-    "name": "Default",
+    "name": "DefaultRobloxProject",
     "tree": {
         "$className": "Datamodel",
         "ReplicatedStorage": {
             "$className": "ReplicatedStorage",
             "Modules": {
-                "$path": "src/ReplicatedStorage"
+                "$path": "src/Client"
+            },
+            "Shared": {
+                "$path": "src/Shared"
             },
             "Packages": {
                 "$path": "Packages"
@@ -14,13 +17,13 @@
         "ServerScriptService": {
             "$className": "ServerScriptService",
             "Modules": {
-                "$path": "src/ServerScriptService"
+                "$path": "src/Connections/KnitServer.server.lua"
             }
         },
         "ServerStorage": {
             "$className": "ServerStorage",
             "Modules": {
-                "$path": "src/ServerStorage"
+                "$path": "src/Server"
             },
             "Packages": {
                 "$path": "ServerPackages"
@@ -31,7 +34,7 @@
             "StarterPlayerScripts": {
                 "$className": "StarterPlayerScripts",
                 "Modules": {
-                    "$path": "src/StarterPlayerScripts"
+                    "$path": "src/Connections/KnitClient.client.lua"
                 }
             }
         }
